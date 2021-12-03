@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt>
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="escudo">
+            <img src="escudo.png" alt="escudo colombia" class="escudoimg">
+            <h5>Libertad y Orden</h5>
+        </div>
+        <div class="textocentral">
+            <h3>FORMATO ÚNICO</h3>
+            <h1>HOJA DE VIDA</h1>
+            <h3>Persona Natural</h3>
+            <h5>(Leyes 190 de 1995, 489 y 443 de 1998)</h5>
+        </div>
+        <div class="entidad">
+            <h5>ENTIDAD RECEPTORA</h5>
+            <input type="text">
+        </div>
+    </header>
+    
+    <div class="datospersonales">
+        <div class="titulo">
+            <h2 class="numero">1</h2>
+            <div class="linea"></div>
+            <h2 class="subtitulo">DATOS PERSONALES</h2>
+        </div>
+
+        <form action="" class="formulariodatos">
+            <div class="bloque1">
+            <div class="primerapellido">
+                <h5>PRIMER APELLIDO</h5>
+                <input type="text" class="inputprimerapellido">
+            </div>
+            <div class="segundoapellido">
+                <h5>SEGUNDO APELLIDO (O DE CASADA)</h5>
+                <input type="text" class="inputsegundoapelido">
+            </div>
+            <div class="nombres">
+                <h5>NOMBRES</h5>
+                <input type="text" class="inputnombres">
+            </div>
+        </div>
+        <div class="bloque2">
+            <div class="identificacion">
+                <h5>DOCUMENTO DE IDENTIFICACIÓN</h5>
+                <div class="division">
+                <h5>C.C</h5>
+                <input type="radio" name="tipodoc" id="cedula" class="radio">
+                <h5>C.E</h5>
+                <input type="radio" name="tipodoc" id="extranjeria" class="radio">
+                <h5>PAS</h5>
+                <input type="radio" name="tipodoc" id="pasaporte" class="radio">
+                <h5>No.</h5>
+                <input type="text" id="numdocumento">
+            </div>
+            </div>
+            <div class="sexo">
+                <h5>SEXO</h5>
+                <div class="division">
+                <h5>F</h5>
+                <input type="radio" name="sexo" id="fem">
+                <h5>M</h5>
+                <input type="radio" name="sexo" id="mas">
+            </div>
+            </div>
+            <div class="nacionalidad">
+                <h5>NACIONALIDAD</h5>                
+                <h5 class="segundoh">PAÍS</h5>
+                <div class="division">
+                <h5>COL.</h5>
+                <input type="radio" name="tiponacional" id="col">
+                <h5>EXTRANJERO</h5>
+                <input type="radio" name="tiponacional" id="ext">
+                <input type="text" class="paisext" id="paisext">
+            </div>
+            </div>
+        </div>
+        <div class="bloque3">
+            <div class="libreta">
+                <h5>LIBRETA MILITAR</h5>
+                <div class="division">
+                <h5>PRIMERA CLASE</h5>
+                <input type="radio" name="tipoclase" id="pclase">
+                <h5>SEGUNDA CLASE</h5>
+                <input type="radio" name="tipoclase" id="sclase">
+                <h5>NUMERO</h5>
+                <input type="text" class="numerolibreta" id="numerolibreta">
+                <h5>D.M</h5>
+                <input type="text" class="dm" id="dm">
+            </div>
+            </div>
+        </div>
+        <div class="bloque4">
+            <div class="lugarnacimiento">
+                <h5>FECHA Y LUGAR DE NACIMIENTO</h5>
+                <div class="division">
+                <h5 class="fechatext">FECHA</h5>
+                <h5>DIA</h5>
+                <input type="number" name="numfechanac" id="numfechanac" class="inputlugarnac">
+                <h5>MES</h5>
+                <input type="number" name="mesfechanac" id="mesfechanac" class="inputlugarnac">
+                <h5>AÑO</h5>
+                <input type="number" name="aniofechanac" id="aniofechanac" class="inputlugarnac1">
+            </div>
+            <div class="division">
+                <h5>PAIS</h5>
+                <input type="text" class="inputpaisnacimiento" id="inputpaisnacimiento">
+            </div>
+            <div class="division">
+                <h5>DEPTO</h5>
+                <input type="text" class="inputdptonacimiento" id="inputdptonacimiento">
+            </div>
+            <div class="division">
+                <h5>MUNICIPIO</h5>
+                <input type="text" class="inputmunnacimiento" id="inputmunnacimiento">
+            </div>
+            </div>
+            <div class="correspondencia">
+                <h5>DIRECCIÓN DE CORRESPONDENCIA</h5>
+                <div class="division">
+                <input type="text" class="inputdireccioncorrespondencia" id="inputdireccioncorrespondencia">
+                <div class="espacio"></div>
+            </div>
+                <div class="division">
+                <h5>PAÍS</h5>
+                <input type="text" class="inputpaiscorrespondencia" id="inputpaiscorrespondencia">
+                <h5>DEPTO</h5>
+                <input type="text" class="inputdptocorrespondencia" id="inputdptocorrespondencia">
+            </div>
+            <div class="division">
+                <h5>MUNICIPIO</h5>
+                <input type="text" class="inputmuncorrespondencia" id="inputmuncorrespondencia">
+            </div>
+            <div class="division">
+                <h5>TELÉFONO</h5>
+                <input type="text" class="inputtelcorrespondencia" id="inputtelcorrespondencia">
+                <h5>EMAIL</h5>
+                <input type="email" class="inputemailcorrespondencia" id="inputemailcorrespondencia">
+            </div>
+            </div>
+        </div>
+        </form>
+    </div>
+
+    <div class="formacionacademica">
+        <div class="titulo">
+            <h2 class="numero">2</h2>
+            <div class="linea"></div>
+            <h2 class="subtitulo">FORMACIÓN ACADÉMICA</h2>
+        </div>
+        <div class="contenedor">
+        <div class="basicaymedia">
+            <h5 id="tituloeducacion">EDUCACIÓN BÁSICA Y MEDIA</h5>
+            <P class="texto">MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO (LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A LOS GRADOS 6o. A 11o. DE
+                EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA)</P>
+            <div class="tablaeducacion">
+                <div class="division">
+                <div class="edbasica">
+                    <h5>EDUCACIÓN BÁSICA</h5>
+                </div>
+                <div class="tituloed">
+                    <h5>TÍTULO OBTENIDO:</h5>
+                    <input type="text" class="tituloob">
+                </div>
+            </div>
+            <div class="division">
+                <div class="primaria">
+                    <h5>PRIMARIA</h5>
+                </div>
+                <div class="secundaria">
+                    <h5>SECUNDARIA</h5>
+                </div>
+                <div class="media">
+                    <h5>MEDIA</h5>
+                </div>
+                <div class="fechagrado">
+                    <h5>FECHA DE GRADO</h5>
+                </div>
+            </div>
+            <div class="division">
+                    <p class="recuadroed">1o.</p>
+                    <p class="recuadroed">2o.</p>
+                    <p class="recuadroed">3o.</p>
+                    <p class="recuadroed">4o.</p>
+                    <p class="recuadroed">5o.</p>
+                    <p class="recuadroed">6o.</p>
+                    <p class="recuadroed">7o.</p>
+                    <p class="recuadroed">8o.</p>
+                    <p class="recuadroed">9o.</p>
+                    <p class="recuadroed">10</p>
+                    <p class="recuadroed">11</p>
+                <div class="fechagraduacion">
+                    <h5>MES</h5>
+                    <input type="number" name="mesgrado" id="mesgrado">
+                    <h5>AÑO</h5>
+                    <input type="number" name="aniogrado" id="aniogrado">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="infoeducacion">
+            <h5>EDUCACIÓN SUPERIOR (PREGRADO Y POSTGRADO)</h5>
+            <P>DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLÓGICO, EN MODALIDAD ACADÉMICA ESCRIBA:</P>
+            <div class="divisiontipoed">
+            <p class="tipoeducacion"> <b>TC</b> (TÉCNICA), <br> <br> <b>ES</b> (ESPECIALIZACIÓN),</p>
+            <p class="tipoeducacion"> <b>TL</b> (TECNOLÓGICA), <br> <br> <b>MG</b>  (MAESTRÍA O MAGISTER),</p>
+            <p class="tipoeducacion"> <b>TE</b> (TECNOLÓGICA ESPECIALIZADA), <br> <br> <b>DOC</b>  (DOCTORADO O PHD),</p>
+            <p class="tipoeducacion"> <b>UN</b> (UNIVERSITARIA),</p>
+        </div>
+            <p>RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL (SI ÉSTA HA SIDO PREVISTA EN UNA LEY).</p>
+        </div>
+        <div class="tablaedsuperior">
+            <div class="division">
+                <div class="modalidad">
+                    <p>MODALIDAD ACADÉMICA</p>
+                </div>
+                <div class="semestres">
+                    <p>No. SEMESTRES APROBADOS</p>
+                </div>
+                <div class="graduado">
+                    <p>GRADUADO</p>
+                    <div class="division">
+                        <div class="si">
+                            <p>SI</p>
+                        </div>
+                        <div class="no">
+                            <p>NO</p>
+                        </div>
+                    </div>                
+                </div>
+                <div class="nombretitulos">
+                    <p>NOMBRE DE LOS ESTUDIOS <br> O TÍTULOS OBTENIDO</p>
+                </div>
+                <div class="terminacion">
+                    <p>TERMINACIÓN</p>
+                    <div class="division">
+                        <div class="mesterminacion">
+                            <p>MES</p>
+                        </div>
+                        <div class="anioterminacion">
+                            <p>AÑO</p>
+                        </div>
+                    </div>             
+                    </div>
+                    <div class="tarjetaprofesional">
+                        <p>No. DE TARJETA <br> PROFESIONAL</p>
+                    </div>
+            </div>           
+            <div class="division">
+                <div class="cuadro1"></div>
+                <div class="cuadro2"></div>
+                <div class="cuadro3"></div>
+                <div class="cuadro4"></div>
+                <div class="cuadro5"></div>
+                <div class="cuadro6"></div>
+                <div class="cuadro7"></div>
+                <div class="cuadro8"></div>
+                <div class="cuadro9"></div>
+                <div class="cuadro10"></div>
+                <div class="cuadro11"></div>
+            </div>
+            <div class="division">
+                <div class="cuadro1"></div>
+                <div class="cuadro2"></div>
+                <div class="cuadro3"></div>
+                <div class="cuadro4"></div>
+                <div class="cuadro5"></div>
+                <div class="cuadro6"></div>
+                <div class="cuadro7"></div>
+                <div class="cuadro8"></div>
+                <div class="cuadro9"></div>
+                <div class="cuadro10"></div>
+                <div class="cuadro11"></div>
+            </div>
+            <div class="division">
+                <div class="cuadro1"></div>
+                <div class="cuadro2"></div>
+                <div class="cuadro3"></div>
+                <div class="cuadro4"></div>
+                <div class="cuadro5"></div>
+                <div class="cuadro6"></div>
+                <div class="cuadro7"></div>
+                <div class="cuadro8"></div>
+                <div class="cuadro9"></div>
+                <div class="cuadro10"></div>
+                <div class="cuadro11"></div>
+            </div>
+            <div class="division">
+                <div class="cuadro1"></div>
+                <div class="cuadro2"></div>
+                <div class="cuadro3"></div>
+                <div class="cuadro4"></div>
+                <div class="cuadro5"></div>
+                <div class="cuadro6"></div>
+                <div class="cuadro7"></div>
+                <div class="cuadro8"></div>
+                <div class="cuadro9"></div>
+                <div class="cuadro10"></div>
+                <div class="cuadro11"></div>
+            </div>
+            <div class="division">
+                <div class="cuadro1"></div>
+                <div class="cuadro2"></div>
+                <div class="cuadro3"></div>
+                <div class="cuadro4"></div>
+                <div class="cuadro5"></div>
+                <div class="cuadro6"></div>
+                <div class="cuadro7"></div>
+                <div class="cuadro8"></div>
+                <div class="cuadro9"></div>
+                <div class="cuadro10"></div>
+                <div class="cuadro11"></div>
+            </div>
+            <!--Rellenar tabla con recuadros-->
+        </div>
+        <div class="tablaidiomas">
+            <p>ESPECÍFIQUE LOS IDIOMAS DIFERENTES AL ESPAÑOL QUE: HABLA, LEE, ESCRIBE DE FORMA, REGULAR ( <b>R</b> ), BIEN ( <b>B</b> ) O MUY BIEN ( <b>MB</b> )</p>
+            <div class="tabla">
+                <div class="division">
+                    <p class="idioma">IDIOMA</p>
+                    <div class="pregunta">
+                        <p> LO HABLA
+                            <div class="division">
+                                    <div class="preguntarespuesta">R</div>
+                                    <div class="preguntarespuesta">B</div>
+                                    <div class="preguntarespuesta">MB</div>
+                            </div>
+                        </p>
+                    </div>
+                    
+                    <div class="pregunta">
+                        <p> LO LEE
+                            <div class="division">
+                                <div class="preguntarespuesta">R</div>
+                                <div class="preguntarespuesta">B</div>
+                                <div class="preguntarespuesta">MB</div>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="pregunta">
+                        <p> LO ESCRIBE
+                            <div class="division">
+                                <div class="preguntarespuesta">R</div>
+                                <div class="preguntarespuesta">B</div>
+                                <div class="preguntarespuesta">MB</div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="espaciofinal"></div>
+    </div>
+</body>
+</html>
